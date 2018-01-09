@@ -112,8 +112,6 @@ if __name__ == "__main__":
     # glmnet vars
     # lam = tf.placeholder(tf.float64, name='lambda')
     lam = tf.Variable(0.6, dtype=np.float64)
-    alpha = tf.Variable(0.9, name='alpha', dtype=np.float64)
-
     # nn vars
     # nn_size = [P, P, P, P, P, 1]
     nn_size = [P, P, P, 1]
