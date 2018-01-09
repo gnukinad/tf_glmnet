@@ -1,0 +1,15 @@
+# ignore everything
+/*
+
+# but this
+!.gitignore
+!gen_dataset.py
+!func.py
+!check_tf.py
+
+# and this
+!datasets/
+datasets/*
+!datasets/Yeoh*
+!datasets/Rosenwald*
+
